@@ -4,7 +4,7 @@
 
 * Création du projet en react
     * init avec yarn
-    * installation de booststrap
+* Création du Menu
 
 
 ----------------------------------
@@ -21,5 +21,10 @@ J'ai choisi react parce que c'est la techno que je vois en ce moment. Je la coup
 
 je crée le projet react-app avec la commande yarn add
 ensuite avec yarn start je test le serveur et ça marche.
+installation de bootstrap
 
-### installation de bootstrap
+### Création du Menu
+
+Je crée un dossier component dans src et un fichier header dedans.
+Le menu s'affiche sans style booststrap ne fait pas son effet apparement.
+C'est résolu ! j'ai oublié l'import ... 
