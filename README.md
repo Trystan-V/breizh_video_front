@@ -9,6 +9,7 @@
 * Création
 
 
+
 ----------------------------------
 
 ### Création du repo github
@@ -48,3 +49,10 @@ Suite à un autre contretemps sur le front j'ai perdu du temps. Le serveur ne ma
 ### Création de la page Film
 
 Création de l'accordéon pour les films
+
+### Ce qui me manque
+
+* Relier le back et le front
+* les évenements 
+* manque de confiance sur React
+* j'ai pas bien compris les Props
