@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import {Link} from 'react-router-dom'
+import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 ///////// Menu Navbar /////////////
 
@@ -22,7 +22,7 @@ export default class Header extends Component {
                           <Link className="nav-link" to="/Film">Film</Link>
                         </li>
                         <li class="nav-item">
-                          <Link className="nav-link" to="/Village">Village</Link>
+                          <Link className="nav-link" to="/Villages">Villages</Link>
                         </li>
                       </ul>
                     </div>

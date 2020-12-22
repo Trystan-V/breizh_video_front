@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Villages from "./components/Villages"
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -7,8 +8,14 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div>
+
+        {/* menu navbar */}
         <Header />
+
+        {/* route pour le villages */}
+        <Route exact path="/Villages" component={Villages} />
+
       </div>
     </Router>
   );
