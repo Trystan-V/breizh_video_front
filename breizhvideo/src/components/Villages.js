@@ -6,6 +6,9 @@ import Table from 'react-bootstrap/Table'
 export default class Villages extends Component {
   render() {
     return (
+
+      // tableau des villes
+
       <div>
         <h1 className="display 3">Villages</h1>
         <Table striped bordered hover>

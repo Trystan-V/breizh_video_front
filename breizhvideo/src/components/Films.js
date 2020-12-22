@@ -3,10 +3,16 @@ import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
+
+///////////////Page film avec accordeon
+
 export default class Film extends Component {
   render() {
     return (
       <div>
+
+        {/* Accordion bootstrap */}
+
         <Accordion defaultActiveKey="0">
           <Card>
             <Card.Header>

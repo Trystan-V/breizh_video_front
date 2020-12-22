@@ -15,7 +15,11 @@ function App() {
         <Header />
 
         {/* route pour le villages */}
+
         <Route exact path="/Villages" component={Villages} />
+        
+        {/* route pour le film */}
+
         <Route exact path="/Film" component={Films}/>
 
       </div>

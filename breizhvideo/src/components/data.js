@@ -1,5 +1,7 @@
 import React from "react";
 
+///////// à default de relier le back au front (ou le front au back) je simule des datas
+
 export default class Data extends Component {
   state = [
     {
@@ -17,7 +19,7 @@ export default class Data extends Component {
   render() {
     return (
       <div>
-        <Villages /* PROPS */
+        <Villages /* tentative de PROPS */
           Idpr={this.state.id}
           Namepr={this.state.name}
           PostCodepr={this.state.postCode}
