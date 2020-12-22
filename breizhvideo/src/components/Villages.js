@@ -18,18 +18,13 @@ export default class Villages extends Component {
           </thead>
           <tbody>
             <tr>
-              <td>Nantes</td>
-              <td>44200</td>
+              <td>{this.props.Namepr}</td>
+              <td>{this.props.PostCodepr}</td>
               <td></td>
             </tr>
             <tr>
-              <td>Carquefou</td>
-              <td>44470</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
+              <td>Rennes</td>
+              <td>35000</td>
               <td></td>
             </tr>
           </tbody>
